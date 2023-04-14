@@ -1,0 +1,20 @@
+{
+  "name": "evoyze-dayend-closing",
+  "version": "23.4.1",
+  "description": "A mini program to run FAST Shop day-end closing.",
+  "main": "app//scheduler.js",
+  "scripts": {
+    "start": "node app//scheduler.js"
+  },
+  "author": "eVoyze SDN BHD",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "googleapis": "^114.0.0",
+    "mssql": "^9.1.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.1",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
